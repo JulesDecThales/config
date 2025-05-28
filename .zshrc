@@ -7,7 +7,10 @@ fi
 
 # If you come from bash you might have to change your $PATH.
 # export PATH=$HOME/bin:$HOME/.local/bin:/usr/local/bin:$PATH
-
+#
+export PATH="$HOME/.local/nvim/bin:$PATH"
+export PATH="$HOME/.local/bin:$PATH"
+export LANG="fr_FR.UTF-8" # important for tmux visualiza
 # Path to your Oh My Zsh installation.
 export ZSH="$HOME/.oh-my-zsh"
 
